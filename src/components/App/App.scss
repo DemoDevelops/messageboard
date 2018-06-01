@@ -1,0 +1,19 @@
+.App {
+  padding: 20px;
+  border: 2px solid #777;
+  margin-top: 20px;
+  border-radius: 5px;
+
+  .postList {
+    min-height: 30vh;
+  }
+
+  .App-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .App-intro {
+    font-size: large;
+  }
+}

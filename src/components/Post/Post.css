@@ -1,0 +1,45 @@
+.viewPost {
+  padding: 20px;
+  border: 2px solid #777;
+  margin-top: 20px;
+  border-radius: 5px; }
+  .viewPost h2 {
+    font-size: 18pt; }
+  .viewPost span {
+    font-size: 14pt; }
+  .viewPost .message {
+    margin-top: 15px;
+    margin-bottom: 20px; }
+  .viewPost .resp {
+    border-top: 3px dashed #777;
+    padding-top: 15px;
+    font-weight: bold; }
+  .viewPost .comments {
+    padding-left: 20px; }
+    .viewPost .comments .comment {
+      font-size: 14pt; }
+      .viewPost .comments .comment .user {
+        font-weight: bold; }
+      .viewPost .comments .comment .text {
+        border-bottom: 3px dashed #777;
+        padding-bottom: 7px;
+        margin-bottom: 7px; }
+      .viewPost .comments .comment:last-child .text {
+        border-bottom: 0; }
+  .viewPost .commentCont {
+    border-top: 3px solid #777;
+    padding-top: 10px; }
+  .viewPost .btnBack {
+    border-top: 3px solid #777;
+    padding-top: 10px;
+    margin-top: 10px; }
+  .viewPost .addComment input,
+  .viewPost .addComment textarea {
+    width: 100%;
+    border: 2px solid #777;
+    border-radius: 5px;
+    margin-bottom: 10px; }
+  .viewPost .addComment .label {
+    font-weight: bold;
+    color: #777;
+    font-size: 14pt; }

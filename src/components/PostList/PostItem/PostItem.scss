@@ -1,0 +1,53 @@
+.linkPost {
+  text-decoration: none;
+  color: black;
+
+  .postItem {
+    border: 1px solid;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    .trim-text {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+    }
+    .title {
+      font-size: 18pt;
+    }
+    .params {
+      font-size: 12pt;
+    }
+    .comment {
+      text-decoration: underline;
+    }
+    .arrow {
+      padding: 10px 20px 0 0px;
+      .arrow-right {
+        float: right;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid #a234b2;
+      }
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: black;
+    .postItem {
+      .title {
+        color: #700d81;
+      }
+      .arrow {
+        .arrow-right {
+          border-left: 20px solid #700d81;
+        }
+      }
+      
+    }
+  }
+}

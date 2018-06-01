@@ -1,0 +1,15 @@
+.addPost {
+  padding: 20px;
+  border: 2px solid #777;
+  margin-top: 20px;
+  border-radius: 5px; }
+  .addPost input, .addPost textarea {
+    width: 100%;
+    border: 2px solid #777;
+    border-radius: 5px;
+    margin-bottom: 10px; }
+  .addPost .label {
+    font-weight: bold;
+    font-size: 14pt; }
+  .addPost .buttons {
+    margin-top: 10px; }
